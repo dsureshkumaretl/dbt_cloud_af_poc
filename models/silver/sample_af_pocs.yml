@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: sample_af_poc
+    description: sample model af demo
+    columns:
+      - name: tbl_count
+        description: table record count.
+
+      - name: table_name
+        description: Table name.
+        tests:
+          - not_null
