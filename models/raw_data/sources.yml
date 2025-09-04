@@ -1,0 +1,6 @@
+sources:
+  - name: raw_data
+    schema: raw_data
+    tables:
+      - name: pharmacy_claim
+      - name: pharmacy_claim_partd
